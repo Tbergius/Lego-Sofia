@@ -162,35 +162,35 @@ main {
     justify-content: space-around;
 }
 #upcoming > div {
-    color: #C5832B;
-    background-color: rgba(255, 127, 17, 0.2);
+    color: yellow;
+    background-color: rgba(255, 255, 0, 0.2);
     padding: 15px;
     text-align: center;
     flex-basis: calc(100% - 30px); /* Full width by default */
     margin: 15px;
     max-width: 300px;
-    border: 2px solid black;
+    border: 2px solid #301e5f;
     background-size: cover;
     background-position: center;
     /* Add text shadow to improve readability */
-    text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5);
+    /* text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5); */ 
 }
 
 
 #upcoming h3 {
     /* Override the heading color set in general styles */ 
-    color: #C5832B;
+    color: yellow;
     /* Add text shadow to headings as well */
-    text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5);
+    /* text-shadow: 1px 1px 2px rgba(255, 255, 0, 0.5); */ 
 }
 
 /* Different background images for each event */
 .monthly-build {
-    background-image: url("../images/monthly-build-dark.jpg");
+    background-image: url("../images/exhibition-2.jpg");
 }
 
 .monthly-meeting {
-    background-image: url("../images/monthly-meeting-dark.jpg");
+    background-image: url("../images/exhibition-2.jpg");
 }
 
 .exhibition {
