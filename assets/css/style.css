@@ -1,0 +1,54 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: yellow;
+}
+
+/* Change footer text color */
+#header-text {
+    color: black;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Main */
+main {
+    background-color: white;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
+/* Change main text color */
+#main-text {
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #301e5f;
+}
+
+/* Change footer text color */
+#footer-text {
+    color: white;
+}
