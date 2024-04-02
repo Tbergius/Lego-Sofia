@@ -18,6 +18,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
 /* Header */
 header {
     background-color: yellow;
@@ -38,12 +44,6 @@ header a {
 
 header div {
     flex: 1; /* Empty flex item to push h1 to the center */
-}
-
-h1 {
-    font-family: 'Noto Sans', sans-serif;
-    letter-spacing: 2px;
-    margin: 10px 0;
 }
 
 #menu {
@@ -91,7 +91,7 @@ main {
     background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 44px;
 }
 
 /* Hero section */
@@ -99,6 +99,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(255, 0, 0, 0.5);
+    font-size: 130%;
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text >h2, #cover-text >h3 {
+    color: white;
 }
 
 /* Footer */
