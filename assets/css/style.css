@@ -10,20 +10,14 @@
 
 /* General styles */
 body {
+    background-color: yellow;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: black;
     font-family: 'Noto Sans', sans-serif;
 }
 
-h1, h2, h3, {
-    font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black;
-}
 /* Header */
 header {
     background-color: yellow;
@@ -44,6 +38,10 @@ header a {
 
 header div {
     flex: 1; /* Empty flex item to push h1 to the center */
+}
+
+h1 {
+    margin: 10px;
 }
 
 #menu {
@@ -88,10 +86,10 @@ nav {
 
 /* Main */
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 0, 0.5);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 44px;
+    margin-top: 40px;
 }
 
 /* Hero section */
@@ -123,13 +121,15 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .card {
     width: 100%;
     max-width: 300px;
-    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    background-color: #301e5f;
+    color: white;
 }
 
 .card img {
@@ -140,13 +140,20 @@ main {
     border-top-right-radius: 8px;
 }
 
-.card-content {
-    padding: 20px;
+.card .card-content {
+    padding: 20px 30px;
 }
 
-.card-content h2 {
+.card .card-content h2,
+.card .card-content p {
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    color: white; /* Text color */
+}
+
+/* Footer */
+footer {
+    background-color: #301e5f;
+    padding: 20px 0; 
 }
 
 /* Footer */
