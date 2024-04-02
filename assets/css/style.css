@@ -25,6 +25,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -36,23 +40,106 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+/* Navbar styles with dropdownn toggle */
+nav {
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: none;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
 main {
     background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
-/* Change main text color */
-#main-text {
-    color: black;
-}
+
 
 /* Footer */
 footer {
     background-color: #301e5f;
+    padding: 20px 0; 
 }
 
-/* Change footer text color */
-#footer-text {
+#social-networks ul {
+    display: flex; 
+    justify-content: space-evenly; 
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-networks li {
+    margin-right: 10px; 
+}
+
+/* Adjust icon size */
+#social-networks li a i {
+    font-size: 24px;
     color: white;
+}
+
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
+    /* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
