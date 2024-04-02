@@ -161,10 +161,9 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 #upcoming > div {
-    color: black;
-    background-color: rgba(0, 0, 0, 0.6);
+    color: #C5832B;
+    background-color: rgba(255, 127, 17, 0.2);
     padding: 15px;
     text-align: center;
     flex-basis: calc(100% - 30px); /* Full width by default */
@@ -173,24 +172,29 @@ main {
     border: 2px solid black;
     background-size: cover;
     background-position: center;
+    /* Add text shadow to improve readability */
+    text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5);
 }
+
 
 #upcoming h3 {
     /* Override the heading color set in general styles */ 
-    color: black;
+    color: #C5832B;
+    /* Add text shadow to headings as well */
+    text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5);
 }
 
 /* Different background images for each event */
 .monthly-build {
-    background-image: url("../images/monthly-build.jpg");
+    background-image: url("../images/monthly-build-dark.jpg");
 }
 
 .monthly-meeting {
-    background-image: url("../images/monthly-meet.jpg");
+    background-image: url("../images/monthly-meeting-dark.jpg");
 }
 
 .exhibition {
-    background-image: url("../images/serdika.jpg");
+    background-image: url("../images/exhibition-2.jpg");
 }
 
 
