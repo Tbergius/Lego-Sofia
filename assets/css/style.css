@@ -21,10 +21,14 @@ body {
 /* Header */
 header {
     background-color: yellow;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
-/* Change footer text color */
-#header-text {
+header a {
+    text-decoration: none;
     color: black;
 }
 
