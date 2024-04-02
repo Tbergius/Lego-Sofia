@@ -36,8 +36,14 @@ header a {
     color: black;
 }
 
+header div {
+    flex: 1; /* Empty flex item to push h1 to the center */
+}
+
 h1 {
     font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0;
 }
 
 #menu {
