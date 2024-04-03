@@ -97,6 +97,11 @@ main {
 }
 
 /* Hero section */
+.hero-container {
+    width: 100%;
+    background-color: yellow;
+}
+
 #hero {
     height: 600px;
     width: 100%;
@@ -120,10 +125,11 @@ main {
 }
 
 /* Card Styles */
-main {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: rgba(255, 255, 0, 0.5);
 }
 
 .card {
@@ -156,6 +162,14 @@ main {
 }
 
 /* Next events section */
+.events-container {
+    background-color: rgba(255, 255, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
 #upcoming {
     display: flex;
     flex-wrap: wrap;
@@ -195,18 +209,6 @@ main {
 
 .exhibition {
     background-image: url("../images/exhibition-2.jpg");
-}
-
-
-/* Gallery Page */
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
-
-#photos {
-    line-height: 0;
-
 }
 
 
