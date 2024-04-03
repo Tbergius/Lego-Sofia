@@ -179,7 +179,7 @@ main {
 #upcoming {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
@@ -193,7 +193,6 @@ main {
     color: yellow;
     padding: 15px;
     text-align: center;
-    flex-basis: calc(50% - 30px);
     margin: 15px;
     border: 2px solid #301e5f;
     background-size: cover;
@@ -298,7 +297,7 @@ footer {
     }
 
     #upcoming>div {
-        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
         /* Two columns for tablets and larger */
     }
 
