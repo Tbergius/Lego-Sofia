@@ -301,6 +301,47 @@ main {
     border-color: #f16c6b;
 }
 
+
+#confirmation-page {
+    background-image: url("../images/contact-page.jpeg");
+    background-size: cover;
+    background-position: 50%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#confirmation-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(48, 30, 95, 0.5);
+    margin: 1vw;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    line-height: 1.5;
+    color: #f8f8ff;
+}
+
+#confirmation-message h2 {
+    font-size: 26;
+    margin-bottom: 20px;
+    color: #f8f8ff;
+}
+
+#confirmation-message p {
+    font-size: 20;
+}
+
+
+
 /* Footer */
 footer {
     background-color: #301e5f;
