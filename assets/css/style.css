@@ -219,6 +219,16 @@ main {
     background-image: url("../images/exhibition-2.jpg");
 }
 
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+
+}
 
 /* Footer */
 footer {
@@ -249,7 +259,13 @@ footer {
     color: white;
 }
 
-
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -285,7 +301,14 @@ footer {
         flex-basis: calc(50% - 30px);
         /* Two columns for tablets and larger */
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
+
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -294,11 +317,17 @@ footer {
     }
 
     .events-container {
-        justify-content: space-between; /* Align items like cards */
+        justify-content: space-between;
+        /* Align items like cards */
     }
 
     #upcoming>div {
-        flex-basis: calc(33.33% - 30px); /* Three columns for laptops and desktops */
+        flex-basis: calc(33.33% - 30px);
+        /* Three columns for laptops and desktops */
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
