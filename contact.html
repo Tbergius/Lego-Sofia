@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
-    <meta name="description"
-    content="Lego Club Sofia. The place to meet Lego builders and fans in Sofia, Bulgaria.">
+    <meta name="description" content="Lego Club Sofia. The place to meet Lego builders and fans in Sofia, Bulgaria.">
     <meta name="keywords" content="Lego, Lego club, Sofia, Bulgaria, building, creating, meeting, sharing">
     <!-- Title -->
     <title>Lego Club Sofia</title>
@@ -15,32 +15,65 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-F4hKetbsgcEQnx12Fpf1gUBAc4sYrqOZ0UnrTOGzr+mtFIWupDBE7bsARuodG2WSySoOD9b1AzDGtvleTHbP+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-F4hKetbsgcEQnx12Fpf1gUBAc4sYrqOZ0UnrTOGzr+mtFIWupDBE7bsARuodG2WSySoOD9b1AzDGtvleTHbP+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
     <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo">Lego Club Sofia</h1>
-            </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="gallery.html" >Gallery</a></li>
-                    <li><a href="contact.html">class="active" Contact</a></li>
-                </ul>
-            </nav>  
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main content-->
     <main>
 
-        </main>
+        <section id="contact-me">
+            <form action="formdump.html" id="contact-form" method="GET">
+                <h2><i class="fa-solid fa-file-signature"></i></i> Let us know if you want to meet us!</h2>
+                <label for="first_name">Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="phone_number">Phone Number</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="monthly_build">Monthly build</label>
+                        <input type="radio" name="join_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="monthly_meeting">Monthly meeting</label>
+                        <input type="radio" name="join_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="join_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Join now</button>
+            </form>
+        </section>
+
+    </main>
 
     <footer>
         <div id="social-networks">
@@ -68,11 +101,11 @@
             </ul>
         </div>
     </footer>
-    
-    
 
-     <!-- Font Awesome kit -->
-     <script src="https://kit.fontawesome.com/9650ef5d85.js" crossorigin="anonymous"></script>
+
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/9650ef5d85.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
