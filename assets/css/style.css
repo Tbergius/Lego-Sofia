@@ -41,7 +41,8 @@ header a {
 }
 
 header div {
-    flex: 1; /* Empty flex item to push h1 to the center */
+    flex: 1;
+    /* Empty flex item to push h1 to the center */
 }
 
 h1 {
@@ -54,7 +55,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -120,7 +121,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text >h2, #cover-text >h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: white;
 }
 
@@ -158,7 +160,8 @@ main {
 .card .card-content h2,
 .card .card-content p {
     margin-bottom: 10px;
-    color: white; /* Text color */
+    color: white;
+    /* Text color */
 }
 
 /* Next events section */
@@ -166,36 +169,41 @@ main {
     background-color: rgba(255, 255, 0, 0.5);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #upcoming {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
-#upcoming > div {
+
+#upcoming>div {
+    width: calc(100% - 30px);
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #301e5f;
     color: yellow;
-    background-color: rgba(255, 255, 0, 0.2);
     padding: 15px;
     text-align: center;
-    flex-basis: calc(100% - 30px); /* Full width by default */
+    flex-basis: calc(50% - 30px);
     margin: 15px;
-    max-width: 300px;
     border: 2px solid #301e5f;
     background-size: cover;
     background-position: center;
-    /* Add text shadow to improve readability */
-    /* text-shadow: 1px 1px 2px rgba(197, 131, 43, 0.5); */
 }
 
 
 #upcoming h3 {
-    /* Override the heading color set in general styles */ 
+    /* Override the heading color set in general styles */
     color: yellow;
-    /* Add text shadow to headings as well */
-    /* text-shadow: 1px 1px 2px rgba(255, 255, 0, 0.5); */ 
 }
 
 /* Different background images for each event */
@@ -215,24 +223,24 @@ main {
 /* Footer */
 footer {
     background-color: #301e5f;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 /* Footer */
 footer {
     background-color: #301e5f;
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 #social-networks ul {
-    display: flex; 
-    justify-content: space-evenly; 
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
 }
 
 #social-networks li {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 /* Adjust icon size */
@@ -245,6 +253,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -258,31 +267,38 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
-    
+
     /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
     }
 
-    #upcoming > div {
-        flex-basis: calc(50% - 30px); /* Two columns for tablets and larger */
+    #upcoming>div {
+        flex-basis: calc(50% - 30px);
+        /* Two columns for tablets and larger */
     }
 }
 
-    /* Large devices (laptops and desktops, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-    #upcoming > div {
+
+    .events-container {
+        justify-content: space-between; /* Align items like cards */
+    }
+
+    #upcoming>div {
         flex-basis: calc(33.33% - 30px); /* Three columns for laptops and desktops */
     }
+
 }
