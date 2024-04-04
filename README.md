@@ -83,7 +83,7 @@ I do not have a lot of experience yet with making wireframes or creating things 
 ---
 ## Testing
 
-The site is tested in full, included solving bugs. I created a TESTING.md page where this can be reviewed, including screen captures.
+The site is tested in full, included solving bugs. I created a [TESTING.md](TESTING.md) page where this can be reviewed, including screen captures.
 
 ---
 ## Deployment
@@ -99,7 +99,7 @@ The site is tested in full, included solving bugs. I created a TESTING.md page w
 - Main page layout and structure is inspired by the Love Running project from Code Institude
 
 ### Media
-- Landing page photo from [Bricks McGee](https://www.bricksmcgee.com/lego-user-groups-lugs-in-the-uk/).
+- Landing page photo from [Bricks McGee](https://www.bricksmcgee.com/lego-user-groups-lugs-in-the-uk/)
 - Several images taken from [Adobe free library](https://stock.adobe.com/)
 - Gallery images sourced from: 
   - [btvnovinite.bg](https://btvnovinite.bg/galeria/galleries/izlozhba-na-unikalna-kolekcija-ot-lego-vlakovi-modeli-video-i-snimki.html/1071?image=7)
