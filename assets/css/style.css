@@ -281,7 +281,7 @@ main {
 }
 
 .radio-buttons label {
-    position: left;
+    position: relative;
     padding-right: 20px;
     margin-bottom: 10px;
 }
@@ -334,13 +334,13 @@ main {
 }
 
 #confirmation-message h2 {
-    font-size: 26;
+    font-size: 26px;
     margin-bottom: 20px;
     color: #f8f8ff;
 }
 
 #confirmation-message p {
-    font-size: 20;
+    font-size: 20px;
 }
 
 
