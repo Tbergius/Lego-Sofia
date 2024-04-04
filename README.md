@@ -69,23 +69,28 @@ I do not have a lot of experience yet with making wireframes or creating things 
 
 - HTML - This is the foundation code the website is written in.
 - CSS - The style structure used.
-- Environment - I used Codeanywhere at the beginning to write, commit, and push the code. When this was no longer working, I changed to Gitpod and finsihed the project there.
-- Google Fonts - I used the fonts and links to the font from Google Fonts.
-- Font Awesone - The icons on the site are taken from here.
-- Wepik - I used this AI tool to make the background image for the contact and confirmation page.
-- Amiresponsive - For creating the nice picture featured at the start.
-- Balsamic - This I used to create the wireframes.
-- w3 validator - The validator used to check the HTML and CSS.
+- [Gitpod](https://www.gitpod.io/) - I used Codeanywhere at the beginning to write, commit, and push the code. When this was no longer working, I changed to Gitpod and finsihed the project there.
+- [Google Fonts](https://fonts.google.com/) - I used the fonts and links to the font from Google Fonts.
+- [Font Awesone](https://fontawesome.com/) - The icons on the site are taken from here.
+- [Wepik](https://wepik.com/) - I used this AI tool to make the background image for the contact and confirmation page.
+- [Amiresponsive](https://ui.dev/amiresponsive) - For creating the nice picture featured at the start.
+- [Balsamic](https://balsamiq.cloud/) - This I used to create the wireframes.
+- [w3 validator](https://validator.w3.org/) - The validator used to check the HTML and CSS.
+- [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - to check for accessibility.
+- [Google Chrome DevTools & Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) - For performance review.
+- [Responsive Viewer](https://responsiveviewer.org/) - Used this to test on different devices.
 
+---
+## Testing
 
+The site is tested in full, included solving bugs. I created a TESTING.md page where this can be reviewed, including screen captures.
 
 ---
 ## Deployment
-Our website is deployed using GitHub Pages. Visit the live site [Website Lego Club](https://tbergius.github.io/Lego-Sofia/index.html).
 
-## Validator Testing
-- HTML: Passed without errors according to the official W3C validator.
-- CSS: No errors found using the official (Jigsaw) validator.
+- The site was deployed via GitHub pages.
+- The repository can be found here - [https://github.com/Tbergius/Lego-Sofia](https://github.com/Tbergius/Lego-Sofia)
+- The deployed site can be found here - [https://tbergius.github.io/Lego-Sofia/index.html](https://tbergius.github.io/Lego-Sofia/index.html)
 
 ---
 ## Credits
@@ -95,8 +100,8 @@ Our website is deployed using GitHub Pages. Visit the live site [Website Lego Cl
 
 ### Media
 - Landing page photo from [Bricks McGee](https://www.bricksmcgee.com/lego-user-groups-lugs-in-the-uk/).
-- Several images take from Adobe free library
+- Several images taken from [Adobe free library](https://stock.adobe.com/)
 - Gallery images sourced from: 
-  - [Gallery 1](https://btvnovinite.bg/galeria/galleries/izlozhba-na-unikalna-kolekcija-ot-lego-vlakovi-modeli-video-i-snimki.html/1071?image=7)
-  - [Gallery 2](https://forum.lebgo.org/)
-  - [Gallery 3](https://pixabay.com/)
+  - [btvnovinite.bg](https://btvnovinite.bg/galeria/galleries/izlozhba-na-unikalna-kolekcija-ot-lego-vlakovi-modeli-video-i-snimki.html/1071?image=7)
+  - [forum.lebgo.org](https://forum.lebgo.org/)
+  - [pixabay.com](https://pixabay.com/)
