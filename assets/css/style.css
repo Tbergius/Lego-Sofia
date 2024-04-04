@@ -207,15 +207,15 @@ main {
 
 /* Different background images for each event */
 .monthly-build {
-    background-image: url("../images/exhibition-2.jpg");
+    background-image: url("../images/exhibition-main.jpg");
 }
 
 .monthly-meeting {
-    background-image: url("../images/exhibition-2.jpg");
+    background-image: url("../images/exhibition-main.jpg");
 }
 
 .exhibition {
-    background-image: url("../images/exhibition-2.jpg");
+    background-image: url("../images/exhibition-main.jpg");
 }
 
 /* Gallery Page */
