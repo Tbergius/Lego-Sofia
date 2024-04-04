@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    background-color: yellow;
+    background-color: #FFFF00;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background-color: yellow;
+    background-color: #FFFF00;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -37,7 +37,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 header div {
@@ -61,13 +61,13 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #000000;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: yellow;
+    background-color: #FFFF00;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -87,12 +87,12 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: purple;
+    color: #800080;
 }
 
 /* Main */
 main {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #ffff0080;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 40px;
@@ -101,7 +101,7 @@ main {
 /* Hero section */
 .hero-container {
     width: 100%;
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 #hero {
@@ -112,7 +112,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #ff000080;
     font-size: 130%;
     position: absolute;
     bottom: 10%;
@@ -124,7 +124,7 @@ main {
 
 #cover-text>h2,
 #cover-text>h3 {
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Card Styles */
@@ -132,17 +132,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #ffff0080;
 }
 
 .card {
     width: 100%;
     max-width: 300px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #0000001a;
     margin-bottom: 20px;
     background-color: #301e5f;
-    color: white;
+    color: #FFFFFF;
     margin-top: 20px;
 }
 
@@ -161,13 +161,13 @@ main {
 .card .card-content h2,
 .card .card-content p {
     margin-bottom: 10px;
-    color: white;
+    color: #FFFFFF;
     /* Text color */
 }
 
 /* Next events section */
 .events-container {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: #ffff0080;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -189,9 +189,9 @@ main {
     max-width: 300px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #0000001a;
     background-color: #301e5f;
-    color: yellow;
+    color: #FFFF00;
     padding: 15px;
     text-align: center;
     margin: 15px;
@@ -202,7 +202,7 @@ main {
 
 #upcoming h3 {
     /* Override the heading color set in general styles */
-    color: yellow;
+    color: #FFFF00;
 }
 
 /* Different background images for each event */
@@ -243,8 +243,8 @@ main {
 }
 
 #contact-form {
-    color: #ffffff;
-    background-color: rgba(48, 30, 95, 0.5);
+    color: #FFFFFF;
+    background-color: #301e5f80;
     font-weight: bold;
     padding: 25px;
     display: flex;
@@ -272,7 +272,7 @@ main {
 
 /* Adding a white background when input is focused */
 .text-input:focus {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 .radio-buttons {
@@ -291,7 +291,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: rgba(48, 30, 95, 1);
+    background-color: #301e5f;
     color: #fafafa;
 }
 
@@ -324,11 +324,11 @@ main {
     text-align: center;
     flex-direction: column;
     padding: 20px;
-    background-color: rgba(48, 30, 95, 0.5);
+    background-color: #301e5f80;
     margin: 1vw;
     float: left;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px #000000;
     line-height: 1.5;
     color: #f8f8ff;
 }
@@ -342,8 +342,6 @@ main {
 #confirmation-message p {
     font-size: 20px;
 }
-
-
 
 /* Footer */
 footer {
@@ -365,7 +363,7 @@ footer {
 /* Adjust icon size */
 #social-networks li a i {
     font-size: 24px;
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Media query: large or landscape phones (576px and up) */
