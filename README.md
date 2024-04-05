@@ -9,15 +9,11 @@ You can access the site live here: [Website Lego Club Sofia](https://tbergius.gi
 ---
 ## User Experience
 
-### First Time Visitors
-- Gain an understanding of the club and its activities.
-- Discover the location and schedule of club meetings.
-- View images of past Lego community events.
-- Contact the club to express interest in joining.
-
-### Returning Visitors
-- Check the calendar for upcoming events and produce planting/harvesting schedules.
-- Easily navigate to the contact page to communicate with the club.
+- As a visiting user, I would like to get an understanding of the club and its activities.
+- As a visiting user, I would like to discover the location and schedule of club meetings.
+- As a visiting user, I would like to view images of lego community events.
+- As a visiting user, I would like to contact the club to express interest in joining.
+- As a returning user, I would like to check the calendar for upcoming events.
 
 ---
 ## Features
@@ -88,9 +84,33 @@ The site is tested in full, included solving bugs. I created a [TESTING.md](TEST
 ---
 ## Deployment
 
-- The site was deployed via GitHub pages.
-- The repository can be found here - [https://github.com/Tbergius/Lego-Sofia](https://github.com/Tbergius/Lego-Sofia)
-- The deployed site can be found here - [https://tbergius.github.io/Lego-Sofia/index.html](https://tbergius.github.io/Lego-Sofia/index.html)
+# The site was deployed via GitHub pages.
+To deploy using GitHub pages: 
+
+- Login or Sign Up to GitHub
+- Open the repository of the project
+- Go to “Settings” on the navigation bar, it is under the repository title
+- Click on “Pages” in the navigation panel on the left side
+- Under “Source”, choose which branch to deploy (Main or Master)
+- Choose which folder to deploy from, usually “/root”
+- Click “Save”, wait for the page to be deployed
+- The URL is displayed above the “Source”
+
+The deployed site can be found here - [https://tbergius.github.io/Lego-Sofia/index.html](https://tbergius.github.io/Lego-Sofia/index.html)
+
+# Working in Gitpod
+
+To load the project in github, please follow these steps:
+
+- Login or Sign Up to Gitpod
+- Click on New Workspace
+- Enter the repository url created from a template, or your own url if you worked on it before in a different environment. This URL will be the Github repository URL
+- Wait for it to load, and select it from the drop-down menu
+- Click on continue
+- Wait until the workspace loads
+- Happy coding!
+
+The repository for this project can be found here - [https://github.com/Tbergius/Lego-Sofia](https://github.com/Tbergius/Lego-Sofia)
 
 ---
 ## Credits

@@ -32,11 +32,22 @@ In order to deploy a functional site, and optimise uder experience, the site wen
 ---
 3. Manual tests. All pages and clickable links or buttons were tested in different browsers, as well testing was performed on smaller screen sizes via the browser inspect option. There is only one page where a user can enter information, this was tested in detail. 
 
-- Contact form fields testing
+Contact form fields testing. Steps taken to test:
+
+- Click on “Contact” in the menu
+- Leave the Name field empty, but have the other fields with something: 
 ![Photo of name field test](documents/contact-name-test.png)
+
+- Leave the phone field empty, but have the other fields with something: 
 ![Photo of phone number test](documents/contact-phone-test.png)
+
+- Leave the email field empty, but have the other fields with something: 
 ![Photo of email test](documents/contact-email-test.png)
+
+- Enter an email address without @, but have the other fields with something: 
 ![Photo of email without at test](documents/contact-email-at-test.png)
+
+- Click on submit, and check for re-direct:
 ![Photo of confirmation page test](documents/confirmation-page-test.png)
 
 4. Accessibility testing: To make sure that pages are accessible for everyone, I used the "Wave" from WebAIM. 
